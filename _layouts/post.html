@@ -1,0 +1,10 @@
+---
+layout: inpost
+---
+
+{{ post.image | prepend: site.baseurl }}
+<h2>{{ page.title }}</h2>
+
+<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+{{ content }}
