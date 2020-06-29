@@ -36,6 +36,11 @@
         height: auto;
       }
 
+      .entirebody p {
+            margin-left: 30px;
+            margin-right: 30px
+    }
+
     .entirebody iframe {
         width: 240px;
         height: 350px
